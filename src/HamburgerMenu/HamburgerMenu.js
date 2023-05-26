@@ -12,15 +12,17 @@ export function HamburgerMenu() {
     return (
         <>
             <button className="hamburgerMenuBtn" onClick={toggleMenu}>
-                {isOpen ? "X" : "☰"}
+                {isOpen ? "X" : "="}
             </button>
-            {isOpen && (
-                <>
-                    <div className="link">link</div>
-                    <div className="link">link</div>
-                    <div className="link">link</div>
-                </>
-            )}
+            <div className="hamburgerMenuContainer">
+                {isOpen && (
+                    <>
+                        <div className="link">link</div>
+                        <div className="link">link</div>
+                        <div className="link">link</div>
+                    </>
+                )}
+            </div>
         </>
     )
 };

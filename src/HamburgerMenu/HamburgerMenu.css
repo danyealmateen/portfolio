@@ -1,7 +1,14 @@
-.hamburgerMenu {
-    font-size: 30px;
-}
-
 .hamburgerMenuBtn {
     color: black;
+    font-size: 50px;
+    border-radius: 5px;
+    background-color: darkolivegreen;
+}
+
+.hamburgerMenuContainer {
+    position: absolute;
+}
+
+.link {
+    font-size: 30px;
 }

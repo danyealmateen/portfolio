@@ -1,23 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair:wght@300&display=swap');
-
-* {
-    color: white;
-}
-
 .headerDiv {
     display: flex;
     justify-content: space-between;
-    background-color: #4b4b4b;
-    border: 1px solid white;
-    border-radius: 5px;
-    font-family: 'Playfair', sans-serif;
-    color: white;
+    background-color: darkolivegreen;
 }
 
 .linkedinLink,
 .githubLink,
 .emailLink {
-    text-decoration: none;
     font-size: 30px;
     margin: 8px;
 }
@@ -25,7 +14,7 @@
 .linkedinLink:hover,
 .githubLink:hover,
 .emailLink:hover {
-    color: silver;
+    color: black;
 }
 
 .socialLinks {

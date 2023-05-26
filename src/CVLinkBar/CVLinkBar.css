@@ -1,0 +1,8 @@
+.cvContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px;
+    background-color: darkolivegreen;
+    margin-top: 2rem;
+}
