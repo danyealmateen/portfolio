@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     border: solid 2px darkolivegreen;
-    margin-top: 4rem;
+    margin-top: 12px;
 }
 
 .imageContainer {
@@ -12,6 +12,6 @@
 
 .placeholderIMG {
     margin: auto;
-    margin-top: 4rem;
+    margin-top: 12px;
     width: 300px;
 }

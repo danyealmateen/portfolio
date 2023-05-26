@@ -3,9 +3,10 @@ import "./CVLinkBar.css"
 export function CVLinkBar() {
     return (
         <div className="cvContainer">
-            <h1>Försvarsmakten</h1>
-            <h1>Polismyndigheten</h1>
-            <h1>Grit Academy</h1>
+            <a className="cvLink" href="/">Swedish Armed Forces</a>
+            <a className="cvLink" href="/">The Swedish Police</a>
+            <a className="cvLink" href="/">Grit Academy</a>
+            <a className="cvLink" href="/"></a>
         </div>
     )
 }

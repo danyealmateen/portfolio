@@ -4,5 +4,13 @@
     justify-content: space-between;
     padding: 12px;
     background-color: darkolivegreen;
-    margin-top: 2rem;
+    margin-top: 12px;
+}
+
+.cvLink {
+    font-size: 30px;
+}
+
+.cvLink:hover {
+    color: black;
 }

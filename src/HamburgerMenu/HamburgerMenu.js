@@ -12,13 +12,13 @@ export function HamburgerMenu() {
     return (
         <>
             <button className="hamburgerMenuBtn" onClick={toggleMenu}>
-                {isOpen ? "X" : "="}
+                {isOpen ? "x" : "="}
             </button>
             <div className="hamburgerMenuContainer">
                 {isOpen && (
                     <>
-                        <div className="link">link</div>
-                        <div className="link">link</div>
+                        <div className="link">About me</div>
+                        <div className="link">Contact</div>
                         <div className="link">link</div>
                     </>
                 )}
