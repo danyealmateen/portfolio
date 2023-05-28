@@ -1,19 +1,17 @@
 import "./App.css"
-import { Header } from "./Header/Header";
-import { HamburgerMenu } from "./HamburgerMenu/HamburgerMenu";
 import { Main } from "./Main/Main";
-import { CVLinkBar } from "./CVLinkBar/CVLinkBar";
+import { BrowserRouter as Router, Route, Routes, Switch } from "react-router-dom";
+import { AboutMe } from "./AboutMe/AboutMe";
 
 function App() {
   return (
-    <>
-      <div className="contentContainer">
-        <Header />
-        <HamburgerMenu />
-        <Main />
-        <CVLinkBar />
-      </div>
-    </>
+
+    <Router>
+      <Routes>
+        <Route path="/aboutme" element={<AboutMe />} />
+        <Route path="/" element={<Main />} />
+      </Routes>
+    </Router>
   );
 }
 
