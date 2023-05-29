@@ -4,6 +4,7 @@ import { HamburgerMenu } from "../HamburgerMenu/HamburgerMenu";
 import { Header } from "../Header/Header";
 import { CVLinkBar } from "../CVLinkBar/CVLinkBar";
 import { Footer } from "../Footer/Footer";
+import { InfoBoxes } from "../InfoBoxes/InfoBoxes.js";
 
 export function Main() {
     return (
@@ -19,6 +20,7 @@ export function Main() {
                 <h1>experience</h1>
             </div>
             <CVLinkBar />
+            <InfoBoxes />
             <Footer />
         </>
     )
