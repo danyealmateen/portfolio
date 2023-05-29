@@ -2,6 +2,7 @@ import "./App.css"
 import { Main } from "./Main/Main";
 import { BrowserRouter as Router, Route, Routes, Switch } from "react-router-dom";
 import { AboutMe } from "./AboutMe/AboutMe";
+import { Footer } from "./Footer/Footer";
 
 function App() {
   return (
