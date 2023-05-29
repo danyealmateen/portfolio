@@ -3,6 +3,7 @@ import placeholder from "../Images/placeholder.jpg"
 import { HamburgerMenu } from "../HamburgerMenu/HamburgerMenu";
 import { Header } from "../Header/Header";
 import { CVLinkBar } from "../CVLinkBar/CVLinkBar";
+import { Footer } from "../Footer/Footer";
 
 export function Main() {
     return (
@@ -18,6 +19,7 @@ export function Main() {
                 <h1>experience</h1>
             </div>
             <CVLinkBar />
+            <Footer />
         </>
     )
 }
