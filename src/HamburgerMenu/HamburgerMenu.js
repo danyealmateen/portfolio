@@ -19,10 +19,9 @@ export function HamburgerMenu() {
             <div className="hamburgerMenuContainer">
                 {isOpen && (
                     <>
-                        {/* <div className="link">About me</div> */}
-                        <Link to="/aboutme">About me</Link>
-                        <div className="link">Contact</div>
-                        <div className="link">link</div>
+                        <Link className='link' to="/aboutme">About me</Link>
+                        <Link className='link' to="/contact">Contact</Link>
+                        <Link className='link' to="/projects">Projects</Link>
                     </>
                 )}
             </div>
