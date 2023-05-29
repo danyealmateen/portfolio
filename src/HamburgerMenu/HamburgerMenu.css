@@ -1,12 +1,13 @@
 .hamburgerMenuBtn {
-    color: black;
-    font-size: 50px;
-    border-radius: 5px;
-    background-color: darkolivegreen;
+    font-size: 30px;
+    background-color: rgba(34, 34, 34, 0.944);
+    position: fixed;
+    width: 50px;
 }
 
 .hamburgerMenuContainer {
     position: absolute;
+    margin-top: 3rem;
 }
 
 .link {

@@ -9,7 +9,7 @@ import { InfoBoxes } from "../InfoBoxes/InfoBoxes.js";
 export function Main() {
     return (
         <>
-            <Header />
+            {/* <Header /> */}
             <HamburgerMenu />
             <div className="imageContainer">
                 <img className="placeholderIMG" src={placeholder} />
@@ -20,7 +20,7 @@ export function Main() {
                 <h1>experience</h1>
             </div>
             <CVLinkBar />
-            <InfoBoxes />
+            {/* <InfoBoxes /> */}
             <Footer />
         </>
     )

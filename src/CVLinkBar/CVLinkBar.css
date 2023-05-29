@@ -1,14 +1,14 @@
 .cvContainer {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 12px;
-    background-color: darkolivegreen;
-    margin-top: 12px;
+    justify-content: center;
+    background-color: rgba(34, 34, 34, 0.944);
+    margin: 12px 0px 12px 0px;
 }
 
 .cvLink {
+    margin: 30px;
     font-size: 30px;
+
 }
 
 .cvLink:hover {

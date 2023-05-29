@@ -1,13 +1,12 @@
 import "./Header.css"
 
+
 export function Header() {
     return (
+
         <div className="headerDiv">
-            <a className="emailLink" href="/">danyeal.mateen@hotmail.com</a>
-            <div className="socialLinks">
-                <a className="linkedinLink" href="/">LinkedIn</a>
-                <a className="githubLink" href="/">Github</a>
-            </div>
+            <h1 className="headerTitle">Hi! I'm your new Front-End developer</h1>
         </div>
+
     )
 }

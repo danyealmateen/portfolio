@@ -1,23 +1,15 @@
 .headerDiv {
     display: flex;
     justify-content: space-between;
-    background-color: darkolivegreen;
+    background-color: rgba(34, 34, 34, 0.944);
+    position: fixed;
+    width: 100%;
 }
 
-.linkedinLink,
-.githubLink,
-.emailLink {
-    font-size: 30px;
-    margin: 12px;
+.headerTitle {
+    text-align: center;
+    margin:auto;
 }
 
-.linkedinLink:hover,
-.githubLink:hover,
-.emailLink:hover {
-    color: black;
-}
 
-.socialLinks {
-    display: flex;
-    justify-content: flex-end;
-}
+

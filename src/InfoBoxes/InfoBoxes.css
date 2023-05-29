@@ -1,0 +1,17 @@
+.boxContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+    background-color: rgba(34, 34, 34, 0.944);
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    background-color: black;
+    border: 1px solid #b5b5b5;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
