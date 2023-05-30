@@ -4,9 +4,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #b5b5b5;
+    color:#F86930;
     font-family: 'Poppins', sans-serif;
-    text-decoration: none;
+    /* text-decoration: none; */
+
 }
 
 html, body {
@@ -15,3 +16,4 @@ html, body {
     margin: 0;
     padding: 0;
 }
+

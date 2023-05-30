@@ -19,7 +19,9 @@ export function HamburgerMenu() {
                 {isOpen && (
                     <>
                         <Link className='link' to="/aboutme">About me</Link>
-                        <Link className='link' to="/contact">Contact</Link>
+                        <Link className='link' to="/cv">CV</Link>
+                        <Link className='link' to="/projects">Projects</Link>
+                        {/* <Link className='link' to="/contact">Contact</Link> */}
                     </>
                 )}
             </div>

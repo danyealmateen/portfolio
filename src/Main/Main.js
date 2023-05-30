@@ -9,19 +9,12 @@ import { InfoBoxes } from "../InfoBoxes/InfoBoxes.js";
 export function Main() {
     return (
         <>
-            {/* <Header /> */}
-            <HamburgerMenu />
-            <div className="imageContainer">
-                <img className="placeholderIMG" src={placeholder} />
-            </div>
-            <div className="mainDivContainer">
-                <h1>Building digital,</h1>
-                <h1>products, brands &</h1>
-                <h1>experience</h1>
-            </div>
-            <CVLinkBar />
+            <Header />
+        
+            {/* <HamburgerMenu /> */}
+            {/* <CVLinkBar /> */}
             {/* <InfoBoxes /> */}
-            <Footer />
+            {/* <Footer /> */}
         </>
     )
 }

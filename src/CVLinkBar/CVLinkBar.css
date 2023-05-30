@@ -1,16 +1,14 @@
 .cvContainer {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     background-color: rgba(34, 34, 34, 0.944);
     margin: 12px 0px 12px 0px;
 }
 
-.cvLink {
-    margin: 30px;
-    font-size: 30px;
-
+.htmlLogo {
+    width: 50px;
 }
 
-.cvLink:hover {
-    color: black;
+.cssLogo {
+    width: 50px;
 }
