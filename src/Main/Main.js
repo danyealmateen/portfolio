@@ -1,5 +1,5 @@
 import "./Main.css";
-import mainlogo from "../Images/mainlogo.png"
+import mainlogo from "../Images/mainlogo.jpeg"
 import html from "../Logos/html.png"
 import css from "../Logos/css.png"
 import js from "../Logos/js.png"
@@ -10,6 +10,8 @@ import jira from "../Logos/jira.png"
 import scrum from "../Logos/scrum.png"
 import ts from "../Logos/ts.png";
 import { Header } from "../Header/Header";
+import { AboutMe } from "../AboutMe/AboutMe";
+import { Footer } from "../Footer/Footer";
 
 export function Main() {
     return (
@@ -47,6 +49,8 @@ export function Main() {
                     <img src={ts} className="ts" />
                 </div>
             </div>
+            <AboutMe />
+            <Footer/>
         </>
     )
 }

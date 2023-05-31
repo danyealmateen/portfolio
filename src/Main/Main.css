@@ -1,12 +1,9 @@
 .contentContainer {
     background-color: rgba(34, 34, 34, 0.944);
-    margin-top: 32px;
     height: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* border: 1px solid orangered;
-    box-shadow: 5px 0px 15px 1px orangered; */
     border-radius: 5px;
 }
 
@@ -17,10 +14,15 @@
 .logoContainer {
     display: flex;
     flex-direction: row;
+  
 }
 
 .mainlogo {
-    width: 300px;
+    width: 250px;
+    border-radius: 50%;
+    margin-left: 24px;
+    margin-right: 24px;
+    border: 2px solid orangered;
 }
 
 .danySpan {
