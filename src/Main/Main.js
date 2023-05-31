@@ -23,12 +23,10 @@ export function Main() {
                     <h3>A Front End developer in Malmö, Sweden.</h3>
                     <hr />
                 </div>
-
                 <div className="logoContainer">
                     <img className="mainlogo" src={mainlogo} />
                     <hr className="logoHr" />
                 </div>
-
                 <div className="skillsetContainer">
                     <img src={html} className="html" />
                     <hr className="hr" />
@@ -50,7 +48,7 @@ export function Main() {
                 </div>
             </div>
             <AboutMe />
-            <Footer/>
+            <Footer />
         </>
     )
 }
