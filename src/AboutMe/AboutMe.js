@@ -12,6 +12,7 @@ export function AboutMe() {
                 </p>
                 <p className="text">
                     The subject of coding appeared when I thought about retraining myself from the swedish armed forces. My professor in BJJ told me about the developers that he works with and what they do. Working with problem solving and constantly learning new ways to keep evolving sounded very appealing to me. Two years later I finished my exam in front end development and the only thing I regret is that I didn't start sooner.</p>
+                <br />
             </div>
         </div>
     )

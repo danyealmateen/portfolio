@@ -1,0 +1,22 @@
+.contentContainer {
+    background-color: rgba(34, 34, 34, 0.944);
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    margin: 50px;
+    padding: 20px;
+}
+
+.skillsTitle,
+.otherTitle {
+    text-align: center;
+    padding-top: -15px;
+}
+
+.skills,
+.others {
+    text-align: center;
+    padding-top: 15px;
+}
