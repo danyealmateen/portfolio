@@ -1,0 +1,80 @@
+.contentContainer {
+    background-color: rgba(34, 34, 34, 0.944);
+    margin-top: 32px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid orangered;
+    box-shadow: 5px 0px 15px 1px orangered; */
+    border-radius: 5px;
+}
+
+.logoHr {
+    margin-left: 16px;
+}
+
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.mainlogo {
+    width: 300px;
+}
+
+.danySpan {
+    color: white;
+}
+
+.html,
+.css,
+.react {
+    width: 35px;
+}
+
+.js {
+    width: 30px;
+}
+
+.git {
+    width: 40px;
+}
+
+.firebase {
+    width: 25px;
+}
+
+.jira {
+    width: 35px;
+}
+
+.scrum {
+    width: 45px;
+    margin-right: -10px;
+    margin-left: -8px;
+}
+
+.ts {
+    width: 45px;
+    margin-left: -5px;
+}
+
+.skillsetContainer {
+    display: flex;
+    margin-left: 32px;
+    align-items: center;
+    flex-direction: row;
+    padding: 32px;
+}
+
+.hr {
+    display: flex;
+    flex-direction: row;
+    width: 30px;
+    margin: 5px;
+}
+
+.hrLogo {
+    height: 225.13px;
+}
