@@ -9,6 +9,8 @@ export function Header() {
                 <img className="logo" src={logo} />
                 <h2 className="headerTitle">DANYWEBDEV</h2>
             </div>
+            <h3 className="socialLinks">LinkedIn</h3>
+            <h3 className="socialLinks">Projects</h3>
         </div>
     )
 }
