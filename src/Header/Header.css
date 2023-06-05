@@ -39,3 +39,11 @@
 .socialLinks {
     margin-right: 45px;
 }
+
+.socialLinks:hover {
+    color: white;
+}
+
+.linkedin {
+    width: 150px
+}
